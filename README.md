@@ -1,3 +1,8 @@
+# Lit
+* see [lit.dev](https://lit.dev/)
+* see [Lit 2.0 Release Livestream](https://www.youtube.com/watch?v=nfb779XIhsU)
+* see [Lit Beta Launch Event](https://www.youtube.com/watch?v=f1j7b696L-E)
+
 # Lit Packager
 * Package lit into an [ES6 module](https://mkaul.github.io/lit/lib/lit.js), that can be imported by the browser directly:
 ```html
