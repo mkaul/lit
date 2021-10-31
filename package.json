@@ -1,0 +1,43 @@
+{
+  "name": "ccm-lit",
+  "version": "1.0.0",
+  "description": "Bridge for ccm to lit",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup --config",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mkaul/lit.git"
+  },
+  "keywords": [
+    "lit"
+  ],
+  "author": "Manfred Kaul",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mkaul/lit/issues"
+  },
+  "homepage": "https://github.com/mkaul/lit#readme",
+  "dependencies": {
+    "@lit-labs/motion": "^1.0.1",
+    "@lit-labs/task": "^1.0.0",
+    "lit": "^2.0.2"
+  },
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^13.0.4",
+    "ava": "^3.15.0",
+    "common": "^0.2.5",
+    "esm": "^3.2.25",
+    "rollup": "^2.56.3"
+  },
+  "ava": {
+    "require": [
+      "esm"
+    ],
+    "files": [
+      "./test/*.js"
+    ]
+  }
+}
