@@ -1,5 +1,5 @@
 # Lit Packager
-* Package lit into an ES6 module, that can be imported by the browser directly:
+* Package lit into an [ES6 module](https://mkaul.github.io/lit/lib/lit.js), that can be imported by the browser directly:
 ```html
 <script type="module">
   import {html, render, repeat} from "https://mkaul.github.io/lit/lib/lit.js";
