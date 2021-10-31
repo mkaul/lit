@@ -1,6 +1,11 @@
 # Lit Packager
-* Package lit into an ES6 module, that can be imported by the browser directly.
-* export list:
+* Package lit into an ES6 module, that can be imported by the browser directly:
+```html
+<script type="module">
+  import {html, render, repeat} from "https://mkaul.github.io/lit/lib/lit.js";
+</script>
+```
+* complete export list:
 ```javascript
 export { Animate, AnimateController, 
   CSSResult, INTERNAL, LitElement, 
