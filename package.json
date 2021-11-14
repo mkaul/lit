@@ -23,6 +23,7 @@
   "dependencies": {
     "@lit-labs/motion": "^1.0.1",
     "@lit-labs/task": "^1.0.0",
+    "@lit-labs/virtualizer": "^0.6.0",
     "lit": "^2.0.2"
   },
   "devDependencies": {
